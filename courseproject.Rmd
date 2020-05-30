@@ -190,6 +190,13 @@ confusionMatrix(validationSet$classe, modelValidation)
 The validation accuracy is 99.32% which is similar to the training accuracy.
 This indicates that the model is not overfitted and can be used on the test data.
 
+### Error Analysis
+
+From the above confusion matrix and the statistics, we can check that the error
+is low for all the classes as the Specificity values are mostly above 0.99.
+This implies that the model is accurate and the validation set results are in 
+line with the results from the training set.
+
 ### Evaluating the Test Data
 
 ```{r}

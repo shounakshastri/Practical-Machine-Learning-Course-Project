@@ -527,6 +527,10 @@ confusionMatrix(validationSet$classe, modelValidation)</code></pre>
 ## Detection Prevalence   0.2845   0.1935   0.1743   0.1638   0.1839
 ## Balanced Accuracy      0.9962   0.9939   0.9913   0.9972   0.9998</code></pre>
 <p>The validation accuracy is 99.32% which is similar to the training accuracy. This indicates that the model is not overfitted and can be used on the test data.</p>
+<div id="error-analysis" class="section level3">
+<h3>Error Analysis</h3>
+<p>From the above confusion matrix and the statistics, we can check that the error is low for all the classes as the Specificity values are mostly above 0.99. This implies that the model is accurate and the validation set results are in line with the results from the training set.</p>
+</div>
 <div id="evaluating-the-test-data" class="section level3">
 <h3>Evaluating the Test Data</h3>
 <pre class="r"><code>modelTest &lt;- predict(modelFit, testData)
