@@ -3,6 +3,9 @@ This repo contains the files required for completing the Practical Machine Learn
 
 This repository contains the following files:
 
-1. courseProjectGithub.md **(This is the one you should check)**
-2. courseProject.rmd - This is the Rmd file used to generate the html file
-3. courseProject.html - The html file. (Uploaded simply because it was said in the requirements)
+1. courseProject.Rmd - This is the Rmd file used to generate the html file
+2. courseProject.html - The html file. (Uploaded simply because it was said in the requirements)
+3. courseProjectGithub.Rmd - Rmd file for github
+4. courseProjectGithub.html - **(This is the one you should check)** file optimized specifically for github
+5. Training Data
+6. Test Data
